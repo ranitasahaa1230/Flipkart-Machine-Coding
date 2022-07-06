@@ -1,0 +1,72 @@
+export const products= [
+    {
+        id:'1',
+        name: 'Blue Track Pants',
+        currPrice: "1500",
+        discountPrie:'1200',
+        sizes:'s',
+        idealFor:'men',
+        brand:'QFABRIX',
+        imgAddress:'https://rukminim1.flixcart.com/image/880/1056/l4bn5ow0/track-pant/a/l/n/s-tr10-qfabrix-original-imagf8vsjc6zbqxq.jpeg?q=50',
+        altImg:'pants',
+    },
+
+    {
+        id:'2',
+        name: 'Women Block Print Kurta',
+        currPrice: "800",
+        discountPrie:'1800',
+        sizes:'xl',
+        idealFor:'women',
+        brand:'BIBA',
+        imgAddress:'https://rukminim1.flixcart.com/image/880/1056/kjkbv680-0/kurta/b/5/w/xl-322k772-saara-original-imafz3xfdnekz6by.jpeg?q=50',
+        altImg:'kurta',
+    },
+    {
+        id:'3',
+        name: 'Men Regular Formal Shirt',
+        currPrice: "2000",
+        discountPrie:'2200',
+        sizes:'m',
+        idealFor:'men',
+        brand:'QFABRIX',
+        imgAddress:'https://rukminim1.flixcart.com/image/880/1056/ksuowi80/shirt/w/p/o/xxl-frml-st2-vebnor-original-imag6bkegkwmqv75.jpeg?q=50',
+        altImg:'shirt',
+    },
+
+    {
+        id:'4',
+        name: 'Relaxed Women Lycra Blend Trousers',
+        currPrice: "799",
+        discountPrie:'1000',
+        sizes:'m',
+        idealFor:'women',
+        brand:'QFABRIX',
+        imgAddress:'https://rukminim1.flixcart.com/image/880/1056/k0plpjk0/trouser/p/t/f/l-jdpantcombo2-black-off-white-me-craft-original-imafkffmfah8sxvz.jpeg?q=50',
+        altImg:'trousers',
+    },
+
+    {
+        id:'5',
+        name: 'Slim Women Black Jeans',
+        currPrice: "1100",
+        discountPrie:'1800',
+        sizes:'xxl',
+        idealFor:'women',
+        brand:'MANIKARNIKA',
+        imgAddress:'https://rukminim1.flixcart.com/image/880/1056/k6xxua80/jean/s/a/7/32-1-button-highrise-black-tyffyn-original-imafpanyfbbmvkhg.jpeg?q=50',
+        altImg:'jeans',
+    },
+
+    {
+        id:'6',
+        name: 'Striped Neck White Shirt',
+        currPrice: "400",
+        discountPrie:'1600',
+        sizes:'xxl',
+        idealFor:'men',
+        brand:'NIKE',
+        imgAddress:'https://rukminim1.flixcart.com/image/880/1056/kzegk280/t-shirt/r/o/t/s-t285hs-as7whdngr-eyebogler-original-imagbfygwtubscjw.jpeg?q=50',
+        altImg:'neck-shirt'
+    },
+]
