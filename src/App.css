@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.product-listing{
+    display: flex;
+    align-items: flex-start;
+    gap:2rem;
+    margin: 2rem 0.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.filters-listing{
+    width: 600px;
+    /* border-right: 2px solid brown; */
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+.filters{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.input-filters{
+    display: flex;
+    margin: 0 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.products-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card{
+    width: 22rem;
+    height: auto;
+    border: 2px solid blueviolet;
+    border-radius: 1.2rem;
+}
+.card-img{
+    width: 21.8rem;
+    height: 22rem;
+    border-radius: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.padding-right{
+    padding: 1rem;
+}
+.brand,.size{
+    color: gray;
+    font-weight: bold;
+}
+.name{
+    font-size: 1.2rem;
+}
+.price{
+    display: flex;
+    place-items: center;
+    gap:1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.currentPrice{
+    font-weight: bold;
 }
+
+.discount-price{
+    text-decoration: line-through;
+    color: gray;
+}
+
